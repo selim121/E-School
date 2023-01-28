@@ -17,21 +17,33 @@ body {
 }
 
 /* common color */
-.es-color-primary{
+.es-color-primary {
     color: #21B573;
 }
-.es-description-color-primary{
-    color: #6C6B6B;
+
+.es-description-color-primary {
+    color: #7c7b7b;
 }
 
 /* common styles */
-.es-btn-primary{
+.es-btn-primary {
     height: 43px;
     width: 153px;
     background-color: #21B573;
     color: #FFFFFF;
     border: none;
     border-radius: 33px;
+}
+
+.es-record-icon {
+    height: 80px;
+    width: 75px;
+}
+
+.es-record-primary:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 
@@ -52,7 +64,8 @@ body {
     height: 43px;
     border: none;
 }
-.es-header-banner{
+
+.es-header-banner {
     height: 345px;
     width: 550px;
 }
