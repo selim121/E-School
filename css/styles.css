@@ -57,7 +57,7 @@ body {
 }
 
 
-/* header styles */
+/* styles */
 .es-header-bg {
     background-color: #F0FFF0;
 }
@@ -78,4 +78,12 @@ body {
 .es-header-banner {
     height: 345px;
     width: 550px;
+}
+.es-man{
+    height: 120px;
+    width: 120px;
+}
+.es-m{
+    margin-left: 13%;
+    margin-right: 13%;
 }
