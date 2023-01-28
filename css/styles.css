@@ -12,11 +12,30 @@ font-family: 'Work Sans', sans-serif;
 font-family: 'Inter', sans-serif;
 */
 
-/* common styles */
 body {
     font-family: 'Poppins', serif;
 }
 
+/* common color */
+.es-color-primary{
+    color: #21B573;
+}
+.es-description-color-primary{
+    color: #6C6B6B;
+}
+
+/* common styles */
+.es-btn-primary{
+    height: 43px;
+    width: 153px;
+    background-color: #21B573;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 33px;
+}
+
+
+/* header styles */
 .es-header-bg {
     background-color: #F0FFF0;
 }
@@ -32,4 +51,8 @@ body {
     width: 104px;
     height: 43px;
     border: none;
+}
+.es-header-banner{
+    height: 345px;
+    width: 550px;
 }
